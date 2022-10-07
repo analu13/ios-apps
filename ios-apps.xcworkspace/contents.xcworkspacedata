@@ -11,9 +11,6 @@
       location = "group:ios-apps/ArcWeather/ArcWeather.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ios-apps/libCore/libCore.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
