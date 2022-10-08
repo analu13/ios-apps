@@ -2,16 +2,19 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ios-apps/libCommon/libCommon.xcodeproj">
+      location = "group:ios-apps/ArcWeather/ArcWeather.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ios-apps/libNetworking/libNetworking.xcodeproj">
+      location = "group:ios-apps/Learning App/Learning App.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:ios-apps/The Movie Challenge/The Movie Challenge.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ios-apps/ArcWeather/ArcWeather.xcodeproj">
+      location = "group:ios-apps/libCommon/libCommon.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ios-apps/libNetworking/libNetworking.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
