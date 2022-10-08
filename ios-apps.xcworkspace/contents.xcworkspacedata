@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ios-apps/libCommon/libCommon.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ios-apps/libNetworking/libNetworking.xcodeproj">
    </FileRef>
    <FileRef
