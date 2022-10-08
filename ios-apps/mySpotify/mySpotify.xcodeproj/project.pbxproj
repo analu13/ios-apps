@@ -10,7 +10,6 @@
 		2176DC8428F10CB500786BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176DC8328F10CB500786BB8 /* AppDelegate.swift */; };
 		2176DC8628F10CB500786BB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176DC8528F10CB500786BB8 /* SceneDelegate.swift */; };
 		2176DC8828F10CB500786BB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176DC8728F10CB500786BB8 /* ViewController.swift */; };
-		2176DC8B28F10CB500786BB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2176DC8928F10CB500786BB8 /* Main.storyboard */; };
 		2176DC8D28F10CBD00786BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2176DC8C28F10CBD00786BB8 /* Assets.xcassets */; };
 		2176DC9028F10CBD00786BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2176DC8E28F10CBD00786BB8 /* LaunchScreen.storyboard */; };
 		2176DC9B28F10CBE00786BB8 /* mySpotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176DC9A28F10CBE00786BB8 /* mySpotifyTests.swift */; };
@@ -40,7 +39,6 @@
 		2176DC8328F10CB500786BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2176DC8528F10CB500786BB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2176DC8728F10CB500786BB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2176DC8A28F10CB500786BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2176DC8C28F10CBD00786BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2176DC8F28F10CBD00786BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2176DC9128F10CBD00786BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,13 +97,13 @@
 		2176DC8228F10CB500786BB8 /* mySpotify */ = {
 			isa = PBXGroup;
 			children = (
-				2176DC8328F10CB500786BB8 /* AppDelegate.swift */,
-				2176DC8528F10CB500786BB8 /* SceneDelegate.swift */,
-				2176DC8728F10CB500786BB8 /* ViewController.swift */,
-				2176DC8928F10CB500786BB8 /* Main.storyboard */,
-				2176DC8C28F10CBD00786BB8 /* Assets.xcassets */,
-				2176DC8E28F10CBD00786BB8 /* LaunchScreen.storyboard */,
-				2176DC9128F10CBD00786BB8 /* Info.plist */,
+				2176DCB828F10D8000786BB8 /* Resources */,
+				2176DCB728F10D6D00786BB8 /* Controlllers */,
+				2176DCB628F10D6600786BB8 /* Views */,
+				2176DCB528F10D5C00786BB8 /* Models */,
+				2176DCB428F10D5400786BB8 /* ViewModels */,
+				2176DCB328F10D3900786BB8 /* Managers */,
+				2176DCB928F10DDA00786BB8 /* Supporting Files */,
 			);
 			path = mySpotify;
 			sourceTree = "<group>";
@@ -125,6 +123,61 @@
 				2176DCA628F10CBE00786BB8 /* mySpotifyUITestsLaunchTests.swift */,
 			);
 			path = mySpotifyUITests;
+			sourceTree = "<group>";
+		};
+		2176DCB328F10D3900786BB8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2176DCB428F10D5400786BB8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2176DCB528F10D5C00786BB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2176DCB628F10D6600786BB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2176DC8E28F10CBD00786BB8 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2176DCB728F10D6D00786BB8 /* Controlllers */ = {
+			isa = PBXGroup;
+			children = (
+				2176DC8728F10CB500786BB8 /* ViewController.swift */,
+			);
+			path = Controlllers;
+			sourceTree = "<group>";
+		};
+		2176DCB828F10D8000786BB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2176DC8C28F10CBD00786BB8 /* Assets.xcassets */,
+				2176DC8328F10CB500786BB8 /* AppDelegate.swift */,
+				2176DC8528F10CB500786BB8 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2176DCB928F10DDA00786BB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2176DC9128F10CBD00786BB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +286,6 @@
 			files = (
 				2176DC9028F10CBD00786BB8 /* LaunchScreen.storyboard in Resources */,
 				2176DC8D28F10CBD00786BB8 /* Assets.xcassets in Resources */,
-				2176DC8B28F10CB500786BB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2176DC8928F10CB500786BB8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2176DC8A28F10CB500786BB8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2176DC8E28F10CBD00786BB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -452,6 +496,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.analuiza.mySpotify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,6 +527,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.analuiza.mySpotify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
