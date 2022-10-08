@@ -16,6 +16,8 @@
 		215E50F628F0D9CF009496FA /* ArcWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E50F528F0D9CF009496FA /* ArcWeatherTests.swift */; };
 		215E510028F0D9CF009496FA /* ArcWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E50FF28F0D9CF009496FA /* ArcWeatherUITests.swift */; };
 		215E510228F0D9CF009496FA /* ArcWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E510128F0D9CF009496FA /* ArcWeatherUITestsLaunchTests.swift */; };
+		2176DC6C28F1041300786BB8 /* libOnBoarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176DC6B28F1041300786BB8 /* libOnBoarding.framework */; };
+		2176DC6D28F1041300786BB8 /* libOnBoarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2176DC6B28F1041300786BB8 /* libOnBoarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2176DC6E28F1041300786BB8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2176DC6D28F1041300786BB8 /* libOnBoarding.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		215E50DB28F0D9CB009496FA /* ArcWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		215E50DE28F0D9CB009496FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,7 @@
 		215E50FB28F0D9CF009496FA /* ArcWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		215E50FF28F0D9CF009496FA /* ArcWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcWeatherUITests.swift; sourceTree = "<group>"; };
 		215E510128F0D9CF009496FA /* ArcWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2176DC6B28F1041300786BB8 /* libOnBoarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libOnBoarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2176DC6C28F1041300786BB8 /* libOnBoarding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,7 @@
 				215E50F428F0D9CF009496FA /* ArcWeatherTests */,
 				215E50FE28F0D9CF009496FA /* ArcWeatherUITests */,
 				215E50DC28F0D9CB009496FA /* Products */,
+				2176DC6A28F1041300786BB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +146,14 @@
 			path = ArcWeatherUITests;
 			sourceTree = "<group>";
 		};
+		2176DC6A28F1041300786BB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2176DC6B28F1041300786BB8 /* libOnBoarding.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +164,7 @@
 				215E50D728F0D9CB009496FA /* Sources */,
 				215E50D828F0D9CB009496FA /* Frameworks */,
 				215E50D928F0D9CB009496FA /* Resources */,
+				2176DC6E28F1041300786BB8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

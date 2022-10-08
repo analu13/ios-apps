@@ -7,151 +7,163 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2176DBF328F0F63800786BB8 /* libCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176DBEA28F0F63700786BB8 /* libCommon.framework */; };
-		2176DBF828F0F63800786BB8 /* libCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176DBF728F0F63800786BB8 /* libCommonTests.swift */; };
-		2176DBF928F0F63800786BB8 /* libCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2176DBED28F0F63700786BB8 /* libCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2176DC5B28F103F900786BB8 /* libOnBoarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176DC5228F103F900786BB8 /* libOnBoarding.framework */; };
+		2176DC6028F103F900786BB8 /* libOnBoardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176DC5F28F103F900786BB8 /* libOnBoardingTests.swift */; };
+		2176DC6128F103F900786BB8 /* libOnBoarding.h in Headers */ = {isa = PBXBuildFile; fileRef = 2176DC5528F103F900786BB8 /* libOnBoarding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2176DC7028F1043500786BB8 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2176DC6F28F1043500786BB8 /* OnBoarding.storyboard */; };
+		2176DC7228F1045E00786BB8 /* OnBoardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176DC7128F1045E00786BB8 /* OnBoardingPageViewController.swift */; };
+		2176DC7428F1047A00786BB8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176DC7328F1047A00786BB8 /* OnBoardingViewController.swift */; };
+		2176DC7628F104A300786BB8 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176DC7528F104A300786BB8 /* OnBoardingContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2176DBF428F0F63800786BB8 /* PBXContainerItemProxy */ = {
+		2176DC5C28F103F900786BB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2176DBE128F0F63700786BB8 /* Project object */;
+			containerPortal = 2176DC4928F103F900786BB8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2176DBE928F0F63700786BB8;
-			remoteInfo = libCommon;
+			remoteGlobalIDString = 2176DC5128F103F900786BB8;
+			remoteInfo = libOnBoarding;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2176DBEA28F0F63700786BB8 /* libCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2176DBED28F0F63700786BB8 /* libCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libCommon.h; sourceTree = "<group>"; };
-		2176DBF228F0F63800786BB8 /* libCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2176DBF728F0F63800786BB8 /* libCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libCommonTests.swift; sourceTree = "<group>"; };
+		2176DC5228F103F900786BB8 /* libOnBoarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libOnBoarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2176DC5528F103F900786BB8 /* libOnBoarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libOnBoarding.h; sourceTree = "<group>"; };
+		2176DC5A28F103F900786BB8 /* libOnBoardingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libOnBoardingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2176DC5F28F103F900786BB8 /* libOnBoardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libOnBoardingTests.swift; sourceTree = "<group>"; };
+		2176DC6F28F1043500786BB8 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		2176DC7128F1045E00786BB8 /* OnBoardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPageViewController.swift; sourceTree = "<group>"; };
+		2176DC7328F1047A00786BB8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		2176DC7528F104A300786BB8 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2176DBE728F0F63700786BB8 /* Frameworks */ = {
+		2176DC4F28F103F900786BB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2176DBEF28F0F63800786BB8 /* Frameworks */ = {
+		2176DC5728F103F900786BB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2176DBF328F0F63800786BB8 /* libCommon.framework in Frameworks */,
+				2176DC5B28F103F900786BB8 /* libOnBoarding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2176DBE028F0F63700786BB8 = {
+		2176DC4828F103F800786BB8 = {
 			isa = PBXGroup;
 			children = (
-				2176DBEC28F0F63700786BB8 /* libCommon */,
-				2176DBF628F0F63800786BB8 /* libCommonTests */,
-				2176DBEB28F0F63700786BB8 /* Products */,
+				2176DC5428F103F900786BB8 /* libOnBoarding */,
+				2176DC5E28F103F900786BB8 /* libOnBoardingTests */,
+				2176DC5328F103F900786BB8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2176DBEB28F0F63700786BB8 /* Products */ = {
+		2176DC5328F103F900786BB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2176DBEA28F0F63700786BB8 /* libCommon.framework */,
-				2176DBF228F0F63800786BB8 /* libCommonTests.xctest */,
+				2176DC5228F103F900786BB8 /* libOnBoarding.framework */,
+				2176DC5A28F103F900786BB8 /* libOnBoardingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2176DBEC28F0F63700786BB8 /* libCommon */ = {
+		2176DC5428F103F900786BB8 /* libOnBoarding */ = {
 			isa = PBXGroup;
 			children = (
-				2176DBED28F0F63700786BB8 /* libCommon.h */,
+				2176DC5528F103F900786BB8 /* libOnBoarding.h */,
+				2176DC6F28F1043500786BB8 /* OnBoarding.storyboard */,
+				2176DC7128F1045E00786BB8 /* OnBoardingPageViewController.swift */,
+				2176DC7328F1047A00786BB8 /* OnBoardingViewController.swift */,
+				2176DC7528F104A300786BB8 /* OnBoardingContainerViewController.swift */,
 			);
-			path = libCommon;
+			path = libOnBoarding;
 			sourceTree = "<group>";
 		};
-		2176DBF628F0F63800786BB8 /* libCommonTests */ = {
+		2176DC5E28F103F900786BB8 /* libOnBoardingTests */ = {
 			isa = PBXGroup;
 			children = (
-				2176DBF728F0F63800786BB8 /* libCommonTests.swift */,
+				2176DC5F28F103F900786BB8 /* libOnBoardingTests.swift */,
 			);
-			path = libCommonTests;
+			path = libOnBoardingTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2176DBE528F0F63700786BB8 /* Headers */ = {
+		2176DC4D28F103F900786BB8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2176DBF928F0F63800786BB8 /* libCommon.h in Headers */,
+				2176DC6128F103F900786BB8 /* libOnBoarding.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2176DBE928F0F63700786BB8 /* libCommon */ = {
+		2176DC5128F103F900786BB8 /* libOnBoarding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2176DBFC28F0F63800786BB8 /* Build configuration list for PBXNativeTarget "libCommon" */;
+			buildConfigurationList = 2176DC6428F103F900786BB8 /* Build configuration list for PBXNativeTarget "libOnBoarding" */;
 			buildPhases = (
-				2176DBE528F0F63700786BB8 /* Headers */,
-				2176DBE628F0F63700786BB8 /* Sources */,
-				2176DBE728F0F63700786BB8 /* Frameworks */,
-				2176DBE828F0F63700786BB8 /* Resources */,
+				2176DC4D28F103F900786BB8 /* Headers */,
+				2176DC4E28F103F900786BB8 /* Sources */,
+				2176DC4F28F103F900786BB8 /* Frameworks */,
+				2176DC5028F103F900786BB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = libCommon;
-			productName = libCommon;
-			productReference = 2176DBEA28F0F63700786BB8 /* libCommon.framework */;
+			name = libOnBoarding;
+			productName = libOnBoarding;
+			productReference = 2176DC5228F103F900786BB8 /* libOnBoarding.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2176DBF128F0F63800786BB8 /* libCommonTests */ = {
+		2176DC5928F103F900786BB8 /* libOnBoardingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2176DBFF28F0F63800786BB8 /* Build configuration list for PBXNativeTarget "libCommonTests" */;
+			buildConfigurationList = 2176DC6728F103F900786BB8 /* Build configuration list for PBXNativeTarget "libOnBoardingTests" */;
 			buildPhases = (
-				2176DBEE28F0F63800786BB8 /* Sources */,
-				2176DBEF28F0F63800786BB8 /* Frameworks */,
-				2176DBF028F0F63800786BB8 /* Resources */,
+				2176DC5628F103F900786BB8 /* Sources */,
+				2176DC5728F103F900786BB8 /* Frameworks */,
+				2176DC5828F103F900786BB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2176DBF528F0F63800786BB8 /* PBXTargetDependency */,
+				2176DC5D28F103F900786BB8 /* PBXTargetDependency */,
 			);
-			name = libCommonTests;
-			productName = libCommonTests;
-			productReference = 2176DBF228F0F63800786BB8 /* libCommonTests.xctest */;
+			name = libOnBoardingTests;
+			productName = libOnBoardingTests;
+			productReference = 2176DC5A28F103F900786BB8 /* libOnBoardingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2176DBE128F0F63700786BB8 /* Project object */ = {
+		2176DC4928F103F900786BB8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					2176DBE928F0F63700786BB8 = {
+					2176DC5128F103F900786BB8 = {
 						CreatedOnToolsVersion = 14.0.1;
 						LastSwiftMigration = 1400;
 					};
-					2176DBF128F0F63800786BB8 = {
+					2176DC5928F103F900786BB8 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 2176DBE428F0F63700786BB8 /* Build configuration list for PBXProject "libCommon" */;
+			buildConfigurationList = 2176DC4C28F103F900786BB8 /* Build configuration list for PBXProject "libOnBoarding" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,26 +171,27 @@
 				en,
 				Base,
 			);
-			mainGroup = 2176DBE028F0F63700786BB8;
-			productRefGroup = 2176DBEB28F0F63700786BB8 /* Products */;
+			mainGroup = 2176DC4828F103F800786BB8;
+			productRefGroup = 2176DC5328F103F900786BB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2176DBE928F0F63700786BB8 /* libCommon */,
-				2176DBF128F0F63800786BB8 /* libCommonTests */,
+				2176DC5128F103F900786BB8 /* libOnBoarding */,
+				2176DC5928F103F900786BB8 /* libOnBoardingTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2176DBE828F0F63700786BB8 /* Resources */ = {
+		2176DC5028F103F900786BB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2176DC7028F1043500786BB8 /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2176DBF028F0F63800786BB8 /* Resources */ = {
+		2176DC5828F103F900786BB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -188,33 +201,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2176DBE628F0F63700786BB8 /* Sources */ = {
+		2176DC4E28F103F900786BB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2176DC7628F104A300786BB8 /* OnBoardingContainerViewController.swift in Sources */,
+				2176DC7228F1045E00786BB8 /* OnBoardingPageViewController.swift in Sources */,
+				2176DC7428F1047A00786BB8 /* OnBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2176DBEE28F0F63800786BB8 /* Sources */ = {
+		2176DC5628F103F900786BB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2176DBF828F0F63800786BB8 /* libCommonTests.swift in Sources */,
+				2176DC6028F103F900786BB8 /* libOnBoardingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2176DBF528F0F63800786BB8 /* PBXTargetDependency */ = {
+		2176DC5D28F103F900786BB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2176DBE928F0F63700786BB8 /* libCommon */;
-			targetProxy = 2176DBF428F0F63800786BB8 /* PBXContainerItemProxy */;
+			target = 2176DC5128F103F900786BB8 /* libOnBoarding */;
+			targetProxy = 2176DC5C28F103F900786BB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2176DBFA28F0F63800786BB8 /* Debug */ = {
+		2176DC6228F103F900786BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,7 +293,7 @@
 			};
 			name = Debug;
 		};
-		2176DBFB28F0F63800786BB8 /* Release */ = {
+		2176DC6328F103F900786BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,7 +350,7 @@
 			};
 			name = Release;
 		};
-		2176DBFD28F0F63800786BB8 /* Debug */ = {
+		2176DC6528F103F900786BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -354,7 +370,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.analuiza.libCommon;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.analuiza.libOnBoarding;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -364,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		2176DBFE28F0F63800786BB8 /* Release */ = {
+		2176DC6628F103F900786BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -384,7 +400,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.analuiza.libCommon;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.analuiza.libOnBoarding;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -393,15 +409,16 @@
 			};
 			name = Release;
 		};
-		2176DC0028F0F63800786BB8 /* Debug */ = {
+		2176DC6828F103F900786BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8589HS7AN;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.analuiza.libCommonTests;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.analuiza.libOnBoardingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -409,15 +426,16 @@
 			};
 			name = Debug;
 		};
-		2176DC0128F0F63800786BB8 /* Release */ = {
+		2176DC6928F103F900786BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8589HS7AN;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.analuiza.libCommonTests;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.analuiza.libOnBoardingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -428,34 +446,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2176DBE428F0F63700786BB8 /* Build configuration list for PBXProject "libCommon" */ = {
+		2176DC4C28F103F900786BB8 /* Build configuration list for PBXProject "libOnBoarding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2176DBFA28F0F63800786BB8 /* Debug */,
-				2176DBFB28F0F63800786BB8 /* Release */,
+				2176DC6228F103F900786BB8 /* Debug */,
+				2176DC6328F103F900786BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2176DBFC28F0F63800786BB8 /* Build configuration list for PBXNativeTarget "libCommon" */ = {
+		2176DC6428F103F900786BB8 /* Build configuration list for PBXNativeTarget "libOnBoarding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2176DBFD28F0F63800786BB8 /* Debug */,
-				2176DBFE28F0F63800786BB8 /* Release */,
+				2176DC6528F103F900786BB8 /* Debug */,
+				2176DC6628F103F900786BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2176DBFF28F0F63800786BB8 /* Build configuration list for PBXNativeTarget "libCommonTests" */ = {
+		2176DC6728F103F900786BB8 /* Build configuration list for PBXNativeTarget "libOnBoardingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2176DC0028F0F63800786BB8 /* Debug */,
-				2176DC0128F0F63800786BB8 /* Release */,
+				2176DC6828F103F900786BB8 /* Debug */,
+				2176DC6928F103F900786BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2176DBE128F0F63700786BB8 /* Project object */;
+	rootObject = 2176DC4928F103F900786BB8 /* Project object */;
 }

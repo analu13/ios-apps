@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ios-apps/libOnBoarding/libOnBoarding.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ios-apps/ArcWeather/ArcWeather.xcodeproj">
    </FileRef>
    <FileRef

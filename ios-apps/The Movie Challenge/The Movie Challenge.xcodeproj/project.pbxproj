@@ -16,6 +16,10 @@
 		215E513228F0DAF4009496FA /* The_Movie_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E513128F0DAF4009496FA /* The_Movie_ChallengeTests.swift */; };
 		215E513C28F0DAF4009496FA /* The_Movie_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E513B28F0DAF4009496FA /* The_Movie_ChallengeUITests.swift */; };
 		215E513E28F0DAF4009496FA /* The_Movie_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E513D28F0DAF4009496FA /* The_Movie_ChallengeUITestsLaunchTests.swift */; };
+		2176DC4328F100F900786BB8 /* libCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176DC4128F100F900786BB8 /* libCommon.framework */; };
+		2176DC4428F100F900786BB8 /* libCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2176DC4128F100F900786BB8 /* libCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2176DC4528F100F900786BB8 /* libNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2176DC4228F100F900786BB8 /* libNetworking.framework */; };
+		2176DC4628F100F900786BB8 /* libNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2176DC4228F100F900786BB8 /* libNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2176DC4728F100F900786BB8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2176DC4628F100F900786BB8 /* libNetworking.framework in Embed Frameworks */,
+				2176DC4428F100F900786BB8 /* libCommon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		215E511728F0DAC8009496FA /* The Movie Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Movie Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		215E511A28F0DAC8009496FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,8 @@
 		215E513728F0DAF4009496FA /* The Movie ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Movie ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		215E513B28F0DAF4009496FA /* The_Movie_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Movie_ChallengeUITests.swift; sourceTree = "<group>"; };
 		215E513D28F0DAF4009496FA /* The_Movie_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Movie_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2176DC4128F100F900786BB8 /* libCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2176DC4228F100F900786BB8 /* libNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2176DC4528F100F900786BB8 /* libNetworking.framework in Frameworks */,
+				2176DC4328F100F900786BB8 /* libCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,7 @@
 				215E511928F0DAC8009496FA /* The Movie Challenge */,
 				215E513028F0DAF4009496FA /* The Movie ChallengeTests */,
 				215E513A28F0DAF4009496FA /* The Movie ChallengeUITests */,
+				2176DC4028F100F900786BB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +151,15 @@
 			path = "The Movie ChallengeUITests";
 			sourceTree = "<group>";
 		};
+		2176DC4028F100F900786BB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2176DC4128F100F900786BB8 /* libCommon.framework */,
+				2176DC4228F100F900786BB8 /* libNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +170,7 @@
 				215E511328F0DAC8009496FA /* Sources */,
 				215E511428F0DAC8009496FA /* Frameworks */,
 				215E511528F0DAC8009496FA /* Resources */,
+				2176DC4728F100F900786BB8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -435,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8589HS7AN;
@@ -463,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8589HS7AN;

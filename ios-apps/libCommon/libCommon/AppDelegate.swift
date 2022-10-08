@@ -1,12 +1,11 @@
 //
 //  AppDelegate.swift
-//  The Movie Challenge
+//  ArcWeather
 //
 //  Created by Analu Lisboa on 07/10/22.
 //
 
 import UIKit
-
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
